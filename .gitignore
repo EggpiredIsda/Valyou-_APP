@@ -1,0 +1,18 @@
+# Android / Java / IntelliJ ignore
+.gradle/
+/local.properties
+/.idea/
+.kotlin/
+build/
+*.iml
+
+# Ignore the JDK folder causing the error
+oracleJdk-26/
+
+# Miscellaneous
+{app/
+"Valyou _APP"/
+.DS_Store
+captures/
+.externalNativeBuild
+.cxx

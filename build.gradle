@@ -1,0 +1,7 @@
+// Project-level build file.
+// AGP 8.3.2 + Gradle 8.6 + Kotlin 1.9.22 — tested compatible combination.
+// AGP 8.3.0+ fixes the ConstraintHandler dependency-mutation crash.
+plugins {
+    id 'com.android.application'      version '9.2.1' apply false
+    id 'org.jetbrains.kotlin.android' version '2.2.10' apply false
+}
